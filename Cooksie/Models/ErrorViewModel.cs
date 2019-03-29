@@ -1,5 +1,3 @@
-using System;
-
 namespace Cooksie.Models
 {
     public class ErrorViewModel

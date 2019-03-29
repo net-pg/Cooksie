@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Cooksie.Models;
 using Microsoft.AspNetCore.Mvc;
-using Cooksie.Models;
+using System.Diagnostics;
 
 namespace Cooksie.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()kkkk
+        public IActionResult Index()
         {
             return View();
         }
